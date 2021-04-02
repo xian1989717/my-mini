@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+  游戏推荐
+  <text>{{test}}</text>
+  <text>{{isBool?'是':'否'}}</text>
+  <text data-bool="{{isBool}}">自定义属性</text>
+  <input type="text" bindinput="handleInput"/>
+</view>
